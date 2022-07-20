@@ -29,33 +29,10 @@ let count;  // вынесла переменную
 console.log(arr3); // [12, 90, 782, 312, 408, 1]
 
 
-// Решение из урока 
-/*let arrNew1 = [3, 45, 23, 78, 34]; 
-let arrNew2 = [4, 2, 34, 4,12, 1];
-let arrNew3 = []; //создаем новый массив
-let values = arrNew1.length > arrNew2.length ? arrNew1 : arrNew2;               //находим самый длинный массив, если масив больше arrNew1.length верни  arrNew1 массив
-for(let i = 0; i < values.length; i++){
-  let NumValid = arrNew1[i] !== undefined ? arrNew1[i] : arrNew2[i];// проверяем не равена ли цифра массива undefinedб если нет то возвращаем єто число
-  let result = arrNew1[i] *  arrNew2[i];
-  if (isNaN(result)){
-    arrNew3.push(NumValid); // положи туда вадидное число из одного из массивов
-  }else{
-    arrNew3.push(result); // положи туда результат умножения
-  }
-} // должно быть меньше длины массива, 
-console.log(arrNew3);
+
 //Задание второе: 
 //Написать программу для поиска повторяющихся значений в заданном массиве. 
 //В консоле должен выводиться массив со всеми элементы, которые повторяются более одного раза.
-
-let arrNew1 = [3, 45, 23, 78, 34]; 
-let arrNew2 = [4, 2, 34, 4,12, 1];
-let arrNew3 = arrNew1.length >= arrNew2.length ? arrNew1 : arrNew2;
-for(let i = 0; i < Math.min(arrNew1.length, arrNew2.length); i++){
-  arrNew3[i] = arrNew1[i] * arrNew2[i];
-}
-console.log(arrNew3);
-*/
 
 let arrmy = [4,2,34,4,1,12,1,4];
 
